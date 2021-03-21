@@ -10,6 +10,7 @@ Collection of Papers related to Computational Storytelling
 * Plan-CVAE: A Planning-based Conditional Variational Autoencoder for Story Generation
 * Toward Better Storylines with Sentence-Level Language Models
 * Content Planning for Neural Story Generation with Aristotelian Rescoring
+* Modeling Protagonist Emotions for Emotion-Aware Storytelling
 * MEGATRON-CNTRL
 * Automated Storytelling via Causal, Commonsense Plot Ordering
 * Conditional Generation of Temporally-ordered Event Sequences
