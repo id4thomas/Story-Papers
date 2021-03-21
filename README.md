@@ -24,6 +24,19 @@ Collection of Papers related to Computational Storytelling
 
 ## Story Analysis
 ### Plot, Event Understanding
+* Unsupervised learning of narrative event chains
+* Movie Script Summarization as Graph-based Scene Extraction
+* CaTeRS
+* Automatic Identification of Narrative Diegesis and Point of View
+* StoryFramer
+* Story Understanding with External Knowledge Based Attention
+* Automatic Extraction of Narrative Structure from Long Form Text
+* Learning to Predict Explainable Plots for Neural Story Generation
+* Movie Plot Analysis via Plot Identification
+* Modelling Suspense in Short Stories as Uncertainty Reduction over Neural Representation
+* Automatic Extraction of Personal Events from Dialogue
+* GLUCOSE
+* Multi-view Story Characterization from Movie Plot Synopses and Reviews
 
 ### Character Understanding
 * Character-based kernels for novelistic plot structure
