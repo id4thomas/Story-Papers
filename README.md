@@ -2,9 +2,19 @@
 Collection of Papers related to Computational Storytelling
 
 ## Story Generation
-### Planning
+### Planning, Plot Generation (Prompt/Context -> Plot)
+* Generating Game Narratives with Focalization and Flashbacks
+* Towards Controllable Story Generation
+* Plan-And-Write: Towards Better Automatic Storytelling
+* Generating Diverse Story Continuations with Controllable Semantics
+* Plan-CVAE: A Planning-based Conditional Variational Autoencoder for Story Generation
+* Content Planning for Neural Story Generation with Aristotelian Rescoring
+* MEGATRON-CNTRL
+* Automated Storytelling via Causal, Commonsense Plot Ordering
+* Conditional Generation of Temporally-ordered Event Sequences
+* Narrative Plan Generation with Self-Supervised Leaning
 
-### Story Text Generation (Mostly LM)
+### Story Text Generation (Plot -> Text)
 
 ## Story Analysis
 ### Plot, Event Understanding
