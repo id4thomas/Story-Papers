@@ -1,5 +1,6 @@
 # Story-Papers
 Collection of Papers related to Computational Storytelling
+WIP
 
 ## Story Generation
 ### Planning, Plot Generation (Prompt/Context -> Plot)
