@@ -1,0 +1,7 @@
+* Generating Game Narratives with Focalization and Flashbacks
+
+#Story Generation
+* Guan, Jian et al. “Story Ending Generation with Incremental Encoding and Commonsense Knowledge.” AAAI (2019).
+* Luo, Fuli et al. “Learning to Control the Fine-grained Sentiment for Story Ending Generation.” ACL (2019).
+* Mao, H. H. et al. “Improving Neural Story Generation by Targeted Common Sense Grounding.” EMNLP/IJCNLP (2019).
+* Guan, Jian et al. “A Knowledge-Enhanced Pretraining Model for Commonsense Story Generation.” Transactions of the Association for Computational Linguistics 8 (2020): 93-108.
