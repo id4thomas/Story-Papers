@@ -13,12 +13,12 @@ WIP
     - [Plot Understanding](#plot-understanding)
     - [Character Understanding](#character-understanding)
     - [Narrative Techniques](#narrative-techniques)
-    
+
 ## Story Generation
 ### Symbolic Story Generation
 Planning Algorithms
 (Separate File)
-
+[Symbolic Story Generation](symbolic_story_gen/README.md)
 ### Neural Story Generation
 #### Storyline (Plot) Generation
 ##### With Explicit Outline
