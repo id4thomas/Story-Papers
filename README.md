@@ -18,7 +18,7 @@ WIP
 ### Symbolic Story Generation
 Planning Algorithms
 (Separate File)
-[Symbolic Story Generation](symbolic_story_gen/README.md)
+[Symbolic Story Generation](story_generation/symbolic_story_gen/README.md)
 ### Neural Story Generation
 #### Storyline (Plot) Generation
 ##### With Explicit Outline
