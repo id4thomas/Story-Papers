@@ -2,6 +2,18 @@
 Collection of Papers related to Computational Storytelling
 WIP
 
+## Table of Contents
+- [Story Generation](#story-generation)
+    - [Symbolic Story Generation](#symbolic-story-generation)
+    - [Neural Story Generation](#nerual-story-generation)
+        - [Storyline Generation](#storyline-(plot)-generation)
+        - [Realization](#realization)
+        - [Evaluation](#evaluation)
+- [Story Analysis](#story-analysis)
+    - [Plot Understanding](#plot-understanding)
+    - [Character Understanding](#character-understanding)
+    - [Narrative Techniques](#narrative-techniques)
+    
 ## Story Generation
 ### Storyline (Plot) Generation
 #### With Explicit Outline
