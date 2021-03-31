@@ -15,35 +15,62 @@ WIP
     - [Narrative Techniques](#narrative-techniques)
     
 ## Story Generation
-### Storyline (Plot) Generation
-#### With Explicit Outline
-* Generating Game Narratives with Focalization and Flashbacks
-    + 
-* Towards Controllable Story Generation
-* Plan-And-Write: Towards Better Automatic Storytelling
-* Generating Diverse Story Continuations with Controllable Semantics
-* Plan-CVAE: A Planning-based Conditional Variational Autoencoder for Story Generation
-* Toward Better Storylines with Sentence-Level Language Models
-* Content Planning for Neural Story Generation with Aristotelian Rescoring
-* Modeling Protagonist Emotions for Emotion-Aware Storytelling
-* MEGATRON-CNTRL
-* Automated Storytelling via Causal, Commonsense Plot Ordering
-* Conditional Generation of Temporally-ordered Event Sequences
-* Narrative Plan Generation with Self-Supervised Leaning
+### Symbolic Story Generation
+Planning Algorithms
+(Separate File)
 
-#### Without Explicit Outline
+### Neural Story Generation
+#### Storyline (Plot) Generation
+##### With Explicit Outline
+Explicit outlines can be in the form of Structured Format (ex. SRL Tags - Predicate,Argument Form)
+Sentence
+Keywords (Event, Emotion, Sentiment,...)
+
+* Fan, Angela et al. “Strategies for Structuring Story Generation.” ACL (2019).
+    + Prompt -> SRL Role Plan
+* Wang, L. et al. “Plan-CVAE: A Planning-Based Conditional Variational Autoencoder for Story Generation.” CNCL (2020).
+    + RAKE Keywords as outline
+* Goldfarb-Tarrant, Seraphina et al. “Content Planning for Neural Story Generation with Aristotelian Rescoring.” EMNLP (2020).
+    + SRL tag plot -> Rescorer for better plot
+* Xu, Peng et al. “MEGATRON-CNTRL: Controllable Story Generation with External Knowledge Using Large-Scale Language Models.” EMNLP (2020).
+    + Keywords as outline, Knowledge Retrieval using keywords
+* Brahman, Faeze and S. Chaturvedi. “Modeling Protagonist Emotions for Emotion-Aware Storytelling.” EMNLP (2020).
+    + Generate text that adheres to title & emotion arc
+    + Doesn't generate emotion arc
+* Ammanabrolu, Prithviraj et al. “Automated Storytelling via Causal, Commonsense Plot Ordering.” ArXiv abs/2009.00829 (2020): n. pag.
+    + Plot infilling between major plot points (plot points as context)
+    + Forward, backward plot graph branching using COMET
+* Lin, Shih-ting et al. “Conditional Generation of Temporally-ordered Event Sequences.” ArXiv abs/2012.15786 (2020): n. pag.
+    + Event infilling given event sequence (Event Deletion)
+
+##### Without Explicit Outline
+* Peng, Nanyun et al. “Towards Controllable Story Generation.” (NAACL WS 2018).
+    + Ending Valence Control
+* Fan, Angela et al. “Hierarchical Neural Story Generation.” ACL (2018).
+* Yao, Lili et al. “Plan-And-Write: Towards Better Automatic Storytelling.” AAAI (2019).
+* Ippolito, Daphne et al. “Toward Better Storylines with Sentence-Level Language Models.” ACL (2020).
+    + Predict sentence embedding for continuation & select from candidates
+* Polceanu, Mihai et al. “Narrative Plan Generation with Self-Supervised Learning.” AAAI 2020 (2020).
+    + Forward search PDDL domains to generate target plans
+    + Generate novel plan by decoding noise given as latent vector using Regularzed AE
 
 ### Realization
-* Story Ending Generation with Incremental Encoding and Commonsense Knowledge
-* Hierarchical Neural Story Generation
-* Strategies for Structuring Story Generation
-* Knowledge-Enhanced Pretraining Model for Commonsense Story Generation
-* MEGATRON-CNTRL
+* Peng, Nanyun et al. “Towards Controllable Story Generation.” (NAACL WS 2018).
+    + Storyline Control (keyword -> story)
+* Fan, Angela et al. “Strategies for Structuring Story Generation.” ACL (2019).
+    + Entity modelling (Placeholder prediction)
+    + Coreference-based entity reference generation: different string given context & previous prediction for same placeholder
+* Tu, Lifu et al. “Generating Diverse Story Continuations with Controllable Semantics.” NGT@EMNLP-IJCNLP (2019)
+    + Generate story text given controllable value
+* Xu, Peng et al. “MEGATRON-CNTRL: Controllable Story Generation with External Knowledge Using Large-Scale Language Models.” EMNLP (2020).
+    + Experiement controllability of story text with antonyms
 
 ### Evaluation (?)
+Evaluate generated story
+perplexity? diversity?
 
 ## Story Analysis
-### Plot, Event Understanding
+### Plot Understanding
 * Unsupervised learning of narrative event chains
 * Movie Script Summarization as Graph-based Scene Extraction
 * CaTeRS
