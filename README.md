@@ -94,6 +94,7 @@ perplexity? diversity?
 
 
 ### Character Understanding
+[Character Understading](./characters.md)
 * Character-based kernels for novelistic plot structure
 * Character-to-Character Sentiment Analysis in Shakespeare’s Plays
 * Character-to-Character Sentiment Analysis in Shakespeare’s Plays Film Characters
