@@ -2,6 +2,16 @@
 Collection of Papers related to Computational Storytelling
 WIP
 
+## Conferences to Follow
+* (AIIDE) The Artificial Intelligence for Interactive Digital Entertainment Conference
+    * https://sites.google.com/view/aiide2021/
+* (ICIDS) International Conference on Interactiate Digital Storytelling
+    * https://link.springer.com/conference/icids
+* (NUSE-ACL Workshop) Workshop on Narrative Understanding, Storylines, and Events
+    * https://sites.google.com/view/nuse
+* (IEEE COG) IEEE Conference on Games
+    * https://ieee-cog.org/2021/index.html
+
 ## Table of Contents
 - [Story Generation](#story-generation)
     - [Symbolic Story Generation](#symbolic-story-generation)
