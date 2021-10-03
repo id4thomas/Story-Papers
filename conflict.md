@@ -1,7 +1,10 @@
 # Conflict
 
 ## Papers
+* (01) MEXICA: A computer model of a cognitive account of creative writing
+  + Tensional Representations, Degradation/Improvement Processes
 * (IEEE-TCIG 09) Generation of Adaptive Dilemma-Based Interactive Narratives (GADIN) - Heather Barber et al.
+  + 5 Dilemma types
 * (TIDSE 03) IDtension: a narrative engine for Interactive Drama - Nicolas Szilas
 * (AIIDE 11) CPOCL: A Narrative Planner Supporting Conflict - Stephen Ware et al.
   + Intention Frame
