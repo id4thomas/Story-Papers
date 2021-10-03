@@ -1,4 +1,4 @@
-# Conflict
+# Conflict ⚔️
 
 ## Papers
 * (01) MEXICA: A computer model of a cognitive account of creative writing
